@@ -1,0 +1,93 @@
+{
+  "app": {
+    "title": "Link Toolkit",
+    "description": "Nettoyez vos URLs, créez des UTMs, encodez & décodez — le tout hors-ligne."
+  },
+  "nav": {
+    "cleaner": "Nettoyeur",
+    "utm": "Créateur UTM",
+    "encoder": "Encodage / Décodage",
+    "history": "Historique"
+  },
+  "home": {
+    "heading": "Link Toolkit",
+    "subtitle": "Nettoyez, construisez & encodez vos URLs — hors-ligne, rapide, privé.",
+    "placeholder": "Collez une URL ici...",
+    "cleanAction": "Nettoyer l'URL",
+    "utmAction": "Créer des UTMs",
+    "encodeAction": "Encoder / Décoder"
+  },
+  "cleaner": {
+    "title": "Nettoyeur de liens",
+    "subtitle": "Supprimez les trackers et nettoyez vos URLs.",
+    "options": "Options",
+    "removeUtm": "Supprimer les paramètres UTM",
+    "removeAdIds": "Supprimer les identifiants publicitaires",
+    "sortParams": "Trier les paramètres",
+    "removeFragments": "Supprimer les fragments (#)",
+    "decodeFirst": "Décoder l'URL d'abord",
+    "result": "URL nettoyée",
+    "removed": "Paramètres supprimés",
+    "noParams": "Aucun paramètre supprimé",
+    "before": "Avant",
+    "after": "Après",
+    "apply": "Nettoyer"
+  },
+  "utm": {
+    "title": "Créateur UTM",
+    "subtitle": "Ajoutez des paramètres de suivi de campagne à vos URLs.",
+    "source": "Source",
+    "sourcePlaceholder": "ex. google, newsletter",
+    "medium": "Médium",
+    "mediumPlaceholder": "ex. cpc, email",
+    "campaign": "Campagne",
+    "campaignPlaceholder": "ex. promo-printemps",
+    "term": "Terme (optionnel)",
+    "termPlaceholder": "ex. chaussures running",
+    "content": "Contenu (optionnel)",
+    "contentPlaceholder": "ex. banniere-pub",
+    "replaceExisting": "Remplacer les UTM existants",
+    "presets": "Préréglages médium",
+    "result": "URL générée",
+    "apply": "Construire"
+  },
+  "encoder": {
+    "title": "Encodage / Décodage",
+    "subtitle": "Outils d'encodage URL et conversion Base64.",
+    "input": "Entrée",
+    "output": "Sortie",
+    "inputPlaceholder": "Collez du texte ou une URL ici...",
+    "swap": "Inverser",
+    "mode": "Mode",
+    "direction": "Direction",
+    "encode": "Encoder",
+    "decode": "Décoder",
+    "url": "URL",
+    "base64": "Base64",
+    "apply": "Convertir"
+  },
+  "history": {
+    "title": "Historique",
+    "subtitle": "Vos actions récentes sur les liens.",
+    "search": "Rechercher dans l'historique...",
+    "empty": "Aucun historique. Commencez à nettoyer ou créer des liens !",
+    "noResults": "Aucun résultat.",
+    "clearAll": "Tout supprimer",
+    "confirmClear": "Êtes-vous sûr ? Cette action est irréversible.",
+    "reopen": "Rouvrir",
+    "starred": "Favoris",
+    "all": "Tous"
+  },
+  "common": {
+    "copy": "Copier",
+    "copied": "Copié !",
+    "share": "Partager",
+    "urlInput": "URL",
+    "urlPlaceholder": "https://exemple.com?utm_source=...",
+    "invalidUrl": "Veuillez entrer une URL valide",
+    "assumedHttps": "https:// ajouté automatiquement",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair",
+    "language": "Langue"
+  }
+}

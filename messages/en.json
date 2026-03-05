@@ -1,0 +1,93 @@
+{
+  "app": {
+    "title": "Link Toolkit",
+    "description": "Clean URLs, build UTMs, encode & decode — all offline."
+  },
+  "nav": {
+    "cleaner": "Cleaner",
+    "utm": "UTM Builder",
+    "encoder": "Encode / Decode",
+    "history": "History"
+  },
+  "home": {
+    "heading": "Link Toolkit",
+    "subtitle": "Clean, build & encode your URLs — offline, fast, private.",
+    "placeholder": "Paste a URL here...",
+    "cleanAction": "Clean URL",
+    "utmAction": "Build UTMs",
+    "encodeAction": "Encode / Decode"
+  },
+  "cleaner": {
+    "title": "Link Cleaner",
+    "subtitle": "Remove trackers and clean up your URLs.",
+    "options": "Options",
+    "removeUtm": "Remove UTM params",
+    "removeAdIds": "Remove ad tracking IDs",
+    "sortParams": "Sort parameters",
+    "removeFragments": "Remove fragments (#)",
+    "decodeFirst": "Decode URL first",
+    "result": "Cleaned URL",
+    "removed": "Removed parameters",
+    "noParams": "No parameters removed",
+    "before": "Before",
+    "after": "After",
+    "apply": "Clean"
+  },
+  "utm": {
+    "title": "UTM Builder",
+    "subtitle": "Add campaign tracking parameters to your URLs.",
+    "source": "Source",
+    "sourcePlaceholder": "e.g. google, newsletter",
+    "medium": "Medium",
+    "mediumPlaceholder": "e.g. cpc, email",
+    "campaign": "Campaign",
+    "campaignPlaceholder": "e.g. spring-sale",
+    "term": "Term (optional)",
+    "termPlaceholder": "e.g. running shoes",
+    "content": "Content (optional)",
+    "contentPlaceholder": "e.g. banner-ad",
+    "replaceExisting": "Replace existing UTM params",
+    "presets": "Medium Presets",
+    "result": "Generated URL",
+    "apply": "Build"
+  },
+  "encoder": {
+    "title": "Encode / Decode",
+    "subtitle": "URL encoding & Base64 conversion tools.",
+    "input": "Input",
+    "output": "Output",
+    "inputPlaceholder": "Paste text or URL here...",
+    "swap": "Swap",
+    "mode": "Mode",
+    "direction": "Direction",
+    "encode": "Encode",
+    "decode": "Decode",
+    "url": "URL",
+    "base64": "Base64",
+    "apply": "Convert"
+  },
+  "history": {
+    "title": "History",
+    "subtitle": "Your recent link actions.",
+    "search": "Search history...",
+    "empty": "No history yet. Start cleaning or building links!",
+    "noResults": "No matching items.",
+    "clearAll": "Clear all",
+    "confirmClear": "Are you sure? This cannot be undone.",
+    "reopen": "Reopen",
+    "starred": "Starred",
+    "all": "All"
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied!",
+    "share": "Share",
+    "urlInput": "URL",
+    "urlPlaceholder": "https://example.com?utm_source=...",
+    "invalidUrl": "Please enter a valid URL",
+    "assumedHttps": "Assumed https://",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "language": "Language"
+  }
+}
