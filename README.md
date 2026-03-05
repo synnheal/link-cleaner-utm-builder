@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# Link Cleaner & UTM Builder
 
-First, run the development server:
+**Clean tracking junk from URLs and build UTM campaigns — fast and private.**
+
+*Nettoyez les trackers des URLs et construisez des campagnes UTM — rapidement et en prive.*
+
+[English](#english) | [Francais](#francais)
+
+</div>
+
+---
+
+## English
+
+### What is Link Cleaner & UTM Builder?
+
+Link Cleaner & UTM Builder is a browser-based URL toolkit. Strip tracking parameters (UTM, fbclid, gclid, etc.) from messy links, build properly formatted UTM campaign URLs, encode/decode URL components, and keep a history of all your cleaned links.
+
+### Features
+
+- **Link Cleaner** — Remove tracking parameters from URLs with one click
+- **UTM Builder** — Build campaign URLs with source, medium, campaign, term, and content fields
+- **URL Encoder/Decoder** — Encode or decode URL components
+- **Parameter Inspector** — See every query parameter broken down in a table
+- **Link History** — Browse and reuse previously cleaned/built URLs
+- **Shareable State** — Share your link configuration via URL
+- **Copy to Clipboard** — Quick copy with visual feedback
+- **Dark / Light Mode** — Theme toggle
+- **Bilingual UI** — Full English & French interface
+
+### Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript |
+| UI | Tailwind CSS 4 + shadcn/ui + Radix UI |
+| Notifications | Sonner |
+| i18n | next-intl |
+
+### Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Francais
 
-## Learn More
+### Qu'est-ce que Link Cleaner & UTM Builder ?
 
-To learn more about Next.js, take a look at the following resources:
+Link Cleaner & UTM Builder est une boite a outils URL dans le navigateur. Supprimez les parametres de tracking (UTM, fbclid, gclid, etc.) des liens encombres, construisez des URLs de campagne UTM correctement formatees, encodez/decodez les composants d'URL, et gardez un historique de tous vos liens nettoyes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Fonctionnalites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Nettoyeur de Liens** — Supprimez les parametres de tracking en un clic
+- **Constructeur UTM** — Construisez des URLs de campagne avec source, medium, campagne, terme et contenu
+- **Encodeur/Decodeur URL** — Encodez ou decodez les composants d'URL
+- **Inspecteur de Parametres** — Voyez chaque parametre detaille dans un tableau
+- **Historique des Liens** — Parcourez et reutilisez les URLs nettoyees/construites
+- **Etat Partageable** — Partagez votre configuration de lien via URL
+- **Copie Presse-papier** — Copie rapide avec retour visuel
+- **Mode Sombre / Clair** — Bascule de theme
+- **Interface Bilingue** — Anglais et francais complets
 
-## Deploy on Vercel
+### Demarrage Rapide
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ouvrez [http://localhost:3000](http://localhost:3000).
+
+---
+
+<div align="center">
+
+**Built with Next.js, TypeScript & Tailwind CSS**
+
+</div>
