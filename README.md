@@ -1,25 +1,26 @@
 <div align="center">
 
-# Link Cleaner & UTM Builder
+# 🔗 Link Cleaner & UTM Builder
 
-**Clean tracking junk from URLs and build UTM campaigns — fast and private.**
+### *Clean tracking junk from URLs and build UTM campaigns — fast and private.*
 
-*Nettoyez les trackers des URLs et construisez des campagnes UTM — rapidement et en prive.*
+**English** · [🇫🇷 Français](README.fr.md)
 
-[English](#english) | [Francais](#francais)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Client-side](https://img.shields.io/badge/100%25-client--side-FF3D00?style=flat-square)
 
 </div>
 
 ---
 
-## English
 
-### What is Link Cleaner & UTM Builder?
+## 📖 What is Link Cleaner & UTM Builder?
 
 Link Cleaner & UTM Builder is a browser-based URL toolkit. Strip tracking parameters (UTM, fbclid, gclid, etc.) from messy links, build properly formatted UTM campaign URLs, encode/decode URL components, and keep a history of all your cleaned links.
 
-### Features
-
+## ✨ Features
 - **Link Cleaner** — Remove tracking parameters from URLs with one click
 - **UTM Builder** — Build campaign URLs with source, medium, campaign, term, and content fields
 - **URL Encoder/Decoder** — Encode or decode URL components
@@ -30,8 +31,7 @@ Link Cleaner & UTM Builder is a browser-based URL toolkit. Strip tracking parame
 - **Dark / Light Mode** — Theme toggle
 - **Bilingual UI** — Full English & French interface
 
-### Tech Stack
-
+## 🧰 Tech stack
 | Layer | Technology |
 |-------|-----------|
 | Framework | Next.js 16 (App Router) |
@@ -40,8 +40,7 @@ Link Cleaner & UTM Builder is a browser-based URL toolkit. Strip tracking parame
 | Notifications | Sonner |
 | i18n | next-intl |
 
-### Getting Started
-
+## 🚀 Getting started
 ```bash
 npm install
 npm run dev
@@ -49,39 +48,15 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
----
-
-## Francais
-
-### Qu'est-ce que Link Cleaner & UTM Builder ?
-
-Link Cleaner & UTM Builder est une boite a outils URL dans le navigateur. Supprimez les parametres de tracking (UTM, fbclid, gclid, etc.) des liens encombres, construisez des URLs de campagne UTM correctement formatees, encodez/decodez les composants d'URL, et gardez un historique de tous vos liens nettoyes.
-
-### Fonctionnalites
-
-- **Nettoyeur de Liens** — Supprimez les parametres de tracking en un clic
-- **Constructeur UTM** — Construisez des URLs de campagne avec source, medium, campagne, terme et contenu
-- **Encodeur/Decodeur URL** — Encodez ou decodez les composants d'URL
-- **Inspecteur de Parametres** — Voyez chaque parametre detaille dans un tableau
-- **Historique des Liens** — Parcourez et reutilisez les URLs nettoyees/construites
-- **Etat Partageable** — Partagez votre configuration de lien via URL
-- **Copie Presse-papier** — Copie rapide avec retour visuel
-- **Mode Sombre / Clair** — Bascule de theme
-- **Interface Bilingue** — Anglais et francais complets
-
-### Demarrage Rapide
-
-```bash
-npm install
-npm run dev
-```
-
-Ouvrez [http://localhost:3000](http://localhost:3000).
 
 ---
 
 <div align="center">
+<sub>
 
-**Built with Next.js, TypeScript & Tailwind CSS**
+Built with care by <b><a href="https://nathanfernandes.fr">Nathan Fernandes</a></b> — Founder of SYNN-IA · Dijon, France
 
+🌐 <a href="https://nathanfernandes.fr">Portfolio</a> · 💼 <a href="https://www.linkedin.com/in/nathan-fernandes-a5793b377/">LinkedIn</a> · 🐙 <a href="https://github.com/SynnIA">GitHub</a>
+
+</sub>
 </div>
